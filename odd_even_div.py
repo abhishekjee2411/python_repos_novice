@@ -20,9 +20,9 @@ check = int(input("Enter a number (check): "))
 num = int(input("Enter another number (num): "))
 
 if (check%num == 0):
-	print("The number "+str(check)+" is divisible by "+str(num)+"!")
+	print("The number "+str(check)+" is evenly divided by "+str(num)+"!")
 else:
-	print("The number "+str(check)+" is not divisible by "+str(num)+"!")
+	print("The number "+str(check)+" is not evenly divided by "+str(num)+"!")
 	
 #-------------------------------------------------------------#
 print ("------------------------------------------------------------")
