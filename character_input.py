@@ -1,3 +1,5 @@
+#http://www.practicepython.org/exercise/2014/01/29/01-character-input.html
+
 name = str(input("Enter your name: "))
 age = int(input("Enter your age: "))
 times = int(input("Enter the number of times you wish your message(s) to be printed: "))
