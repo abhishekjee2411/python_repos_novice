@@ -29,3 +29,10 @@ print ("The length of the new list is : ",len(b))
 while (i < len(b)):
 	print (b[i])
 	i += 1
+
+print ("Printing a selective list:")
+lim = int(input("Enter a limit value:"))
+i = 0
+while (i < lim):
+	print (a[i])
+	i += 1
