@@ -1,4 +1,5 @@
 x = range(2,20)
+print (x)		# printing a range as is will simply print the format, not the values, of the range
 print (len(x))
 i = 0
 while (i < len(x)):
