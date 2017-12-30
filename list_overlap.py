@@ -1,3 +1,5 @@
+import random
+
 a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 b = range(1,14)
 
@@ -16,6 +18,8 @@ while (i < len(b)):
 
 print (b_)
 
+#------------------------------------------------------------------------------------------------------------#
+
 print ("Comparing the two lists and creating a new list containing the elements common to both!")
 i = 0
 j = 0
@@ -32,3 +36,14 @@ print ("Sprucing up the new list by removing any duplicates!")
 c_ = set(c)
 print ("The new list is : ")
 print (c_)
+
+#------------------------------------------------------------------------------------------------------------#
+
+print ("Generating 2 random lists!")
+
+a = random.sample(range(60),10)
+b = random.sample(range(60),10)
+print (a)
+print (b)
+
+#------------------------------------------------------------------------------------------------------------#
