@@ -1,8 +1,5 @@
 def fibonacci_gen(x):
-	fib_list = []
-	fib_list.append(1)
-	fib_list.append(1)
-	print (fib_list)
+	fib_list = [1,1]
 	i = 2
 	while (i < x):
 		fib_list.append(fib_list[(i-1)] + fib_list[(i-2)])
